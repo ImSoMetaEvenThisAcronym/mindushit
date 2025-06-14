@@ -26,6 +26,9 @@ outputItems: [
   thorium/1
   titanium/12
 ]
+outputLiquids: [
+  hydrogen/0.2
+]
 category: crafting
 requirements: [
   lead/65
