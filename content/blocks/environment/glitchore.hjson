@@ -1,6 +1,6 @@
 type: OreBlock
-name: "TESTICUlAR TORSION"
-itemDrop: phase-fabric
+name: "Glitch Ore"
+itemDrop: glitch-matter
 variants: 0
 oreDefault: true
 oreScale: 22.45
