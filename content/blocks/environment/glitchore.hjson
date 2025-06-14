@@ -1,6 +1,6 @@
 type: OreBlock
 name: "Glitch Ore"
-itemDrop: glitchmatter
+itemDrop: glitch-matter
 variants: 0
 oreDefault: true
 oreScale: 22.45
