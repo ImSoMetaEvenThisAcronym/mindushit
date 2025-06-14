@@ -1,10 +1,10 @@
 name: "mindushit"
 displayName: "Mindushit"
 description: '''
-
+Mindustry test mod for making random sci-fi bullshit
 '''
 author: '''
-
+ISMETA, Vincenzotheduck
 '''
-minGameVersion: 136.1
+minGameVersion: 146
 version: 1.0
