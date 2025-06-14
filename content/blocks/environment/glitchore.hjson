@@ -4,4 +4,4 @@ itemDrop: glitch-matter
 variants: 0
 oreDefault: true
 oreScale: 22.5
-oreThreshold: 0.5
+oreThreshold: 0.96
