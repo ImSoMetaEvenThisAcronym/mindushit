@@ -1,0 +1,7 @@
+type: OreBlock
+name: "TESTICUlAR TORSION"
+itemDrop: phase-fabric
+variants: 0
+oreDefault: true
+oreScale: 22.45
+oreThreshold: 0.8
