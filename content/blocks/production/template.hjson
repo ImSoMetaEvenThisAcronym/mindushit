@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "TEST"
+description: '''
+
+'''
+size: 2
+consumes: {
+  power: 5
+  items: [
+    lead/5
+    copper/5
+  ]
+  liquids: [
+    oil/0.5
+    slag/1
+  ]
+}
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+  }
+]
+craftTime: 60
+outputItems: [
+  thorium/1
+  titanium/12
+]
+category: crafting
+requirements: [
+  lead/65
+  surge-alloy/10
+  phase-fabric/20
+]
