@@ -1,5 +1,8 @@
+type: CellLiquid
 name: "Void Fluid"
 description: '''
 gleeb test
 '''
 color: 000000
+colorFrom: ff0000
+colorTo: 00ffff
