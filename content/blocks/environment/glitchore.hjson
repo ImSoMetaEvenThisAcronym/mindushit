@@ -3,5 +3,5 @@ name: "Glitch Ore"
 itemDrop: glitch-matter
 variants: 0
 oreDefault: true
-oreScale: 27
-oreThreshold: 0.85
+oreScale: 37
+oreThreshold: 0.88
