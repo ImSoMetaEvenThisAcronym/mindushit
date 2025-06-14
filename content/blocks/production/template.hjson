@@ -19,6 +19,7 @@ drawer: [
   DrawDefault
   {
     type: DrawFlame
+    flameColor: ff0000
   }
 ]
 craftTime: 60
@@ -31,7 +32,6 @@ outputLiquids: [
 ]
 category: crafting
 requirements: [
-  lead/65
   surge-alloy/10
   phase-fabric/20
 ]
