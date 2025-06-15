@@ -12,7 +12,36 @@ consumes: {
   ]
 }
 drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawRegion
+    suffix: -static
+    spinSprite: true
+    rotateSpeed: 0.5
+  }
+  {
+    type: DrawRegion
+    suffix: -rgb
+    spinSprite: true
+    rotateSpeed: -1
+  }
+  {
+    type: DrawRegion
+    suffix: -weave
+    spinSprite: true
+    rotateSpeed: 2
+  }
   DrawDefault
+  {
+    type: DrawGlowRegion
+    color: f9a3c7
+    alpha: 0.3
+    glowScale: 10
+    glowIntensity: 0.8
+  }
 ]
 craftTime: 60
 outputItems: [
