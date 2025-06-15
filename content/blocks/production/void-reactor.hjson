@@ -5,6 +5,8 @@ A powerful machine with the purpose of producing Void Fluid. Injects huge amount
 
 Requires large amounts of ichor.
 '''
+ambientSound: bioLoop
+ambientSoundVolume: 0.3
 size: 4
 hasPower: false
 consumes: {
