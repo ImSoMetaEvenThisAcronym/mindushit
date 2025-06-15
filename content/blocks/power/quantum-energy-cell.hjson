@@ -1,0 +1,15 @@
+type: ImpactReactor
+name: "Quantum Energy Cell"
+description: '''
+Holds insane amounts of power in an extremely small space. Extremely stable, will not explode when destroyed.
+'''
+size: 5
+baseExplosiveness: 0
+consumes: {
+  powerBuffered: 10000000
+}
+requirements: [
+  contained-glitch-matter/60
+  surge-alloy/100
+  titanium/40
+]
