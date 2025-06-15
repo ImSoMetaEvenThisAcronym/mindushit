@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "Injection Press"
+description: '''
+Injects thin titanium sheets with oil and compresses them under high pressure and temperature, producing plastanium with higher efficiency.
+'''
+size: 3
+consumes: {
+  power: 3.5
+  liquids: [
+    oil/0.3
+  ]
+  items: [
+    titanium/3
+  ]
+}
+liquidCapacity: 90
+itemCapacity: 21
+drawer: [
+  DrawDefault
+  DrawFade
+]
+craftTime: 60
+outputItems: [
+  plastanium/2
+]
+updateEffect: plasticburn
+craftEffect: [formsmoke, formsmoke]
+category: crafting
+requirements: [
+  thorium/80
+  silicon/90
+  lead/120
+  plastanium/40
+]
