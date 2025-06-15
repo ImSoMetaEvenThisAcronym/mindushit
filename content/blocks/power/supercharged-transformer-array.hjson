@@ -39,9 +39,9 @@ outputLiquids: [
 liquidCapacity: 300
 category: power
 requirements: [
-  surge-alloy/40
+  surge-alloy/20
   glitch-matter/20
-  thorium/120
-  silicon/60
-  graphite/60
+  thorium/70
+  silicon/50
+  plastanium/50
 ]
