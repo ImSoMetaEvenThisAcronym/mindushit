@@ -25,7 +25,15 @@ drawer: [
     color: 00000000
     particleColorFrom: f8c26630
     particleColorTo: ffe18fbb
-    particles: 30
+    particles: 15
+    range: 7
+  }
+  {
+    type: DrawCells
+    color: 00000000
+    particleColorFrom: fff9c3ee
+    particleColorTo: de945845
+    particles: 15
     range: 7
   }
   {
