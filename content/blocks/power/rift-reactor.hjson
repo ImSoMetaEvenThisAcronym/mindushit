@@ -32,24 +32,8 @@ drawer: [
   }
   {
     type: DrawShape
-    color: 7891ff
-    radius: 8
-    sides: 4
-    timeScl: 0.25
-    useWarmupRadius: true
-  }
-  {
-    type: DrawShape
-    color: d678ff
-    radius: 7
-    sides: 3
-    timeScl: 0.5
-    useWarmupRadius: true
-  }
-  {
-    type: DrawShape
     color: 000000
-    radius: 6
+    radius: 15
     sides: 15
     useWarmupRadius: true
   }
