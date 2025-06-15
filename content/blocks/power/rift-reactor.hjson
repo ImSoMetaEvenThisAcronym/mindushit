@@ -42,6 +42,7 @@ drawer: [
     type: DrawFade
     suffix: -lights
     scale: 5
+    alpha: 0.3
   }
   {
     type: DrawGlowRegion
