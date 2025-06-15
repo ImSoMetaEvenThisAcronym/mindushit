@@ -4,6 +4,8 @@ description: '''
 A complex array of energy-to-matter synthesis modules for the purpose of transforming electrical energy into ichor for extremely powerful machinery. Requires extensive cooling and materials to repair it periodically. Extremely dangerous, do not let it get destroyed.
 '''
 size: 4
+ambientSound: spellLoop
+ambientSoundVolume: 0.3
 baseExplosiveness: 50
 conductivePower: true
 consumes: {
