@@ -7,7 +7,7 @@ size: 3
 hasPower: false
 consumes: {
   liquids: [
-    ichor/0.1
+    ichor/1
   ]
   items: [
     glitch-matter/1
