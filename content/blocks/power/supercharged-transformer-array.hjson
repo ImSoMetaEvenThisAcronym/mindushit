@@ -11,7 +11,7 @@ consumes: {
     surge-alloy/1
   ]
   liquids: [
-    cryofluid/1
+    cryofluid/0.5
   ]
 }
 drawer: [
@@ -31,7 +31,7 @@ drawer: [
     alpha: 0.25
   }
 ]
-craftTime: 600
+craftTime: 900
 outputLiquids: [
   ichor/1
 ]
