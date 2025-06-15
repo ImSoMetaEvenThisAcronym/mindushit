@@ -33,6 +33,7 @@ drawer: [
     suffix: -weave
     spinSprite: true
     rotateSpeed: 2
+    rotationOffset: 90
   }
   DrawDefault
   {
