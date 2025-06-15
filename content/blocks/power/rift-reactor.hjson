@@ -19,6 +19,6 @@ drawer: [
   DrawDefault
 ]
 craftTime: 60
-category: crafting
+category: power
 requirements: [
 ]
