@@ -3,16 +3,16 @@ name: "Quantum Rift Reactor"
 description: '''
 Uses void fluid to open a huge rift in the fabric of reality. Reactive matter falling into this rift is shredded, producing massive amounts of pure energy.
 '''
-size: 3
+size: 6
 consumes: {
   power: 90
   liquids: [
     voidfluid/0.5
   ]
-  {type: ConsumeItemFlammable}
-  {type: ConsumeItemExplosive}
-  {type: ConsumeItemRadioactive}
-  {type: ConsumeItemCharged}
+  itemFlammable: {}
+  itemExplosive: {}
+  itemRadioactive: {}
+  itemCharged: {}
 }
 powerProduction: 2000
 drawer: [
