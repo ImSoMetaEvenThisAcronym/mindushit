@@ -5,7 +5,7 @@ Uses void fluid to open a huge rift in the fabric of reality. Reactive matter fa
 '''
 size: 6
 ambientSound: shield
-ambientSoundVolume: 0.6
+ambientSoundVolume: 0.2
 consumes: {
   power: 90
   liquids: [
