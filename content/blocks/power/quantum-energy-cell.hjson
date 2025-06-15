@@ -1,4 +1,4 @@
-type: ImpactReactor
+type: Battery
 name: "Quantum Energy Cell"
 description: '''
 Holds insane amounts of power in an extremely small space. Extremely stable, will not explode when destroyed.
@@ -8,6 +8,7 @@ baseExplosiveness: 0
 consumes: {
   powerBuffered: 10000000
 }
+category: power
 requirements: [
   contained-glitch-matter/60
   surge-alloy/100
