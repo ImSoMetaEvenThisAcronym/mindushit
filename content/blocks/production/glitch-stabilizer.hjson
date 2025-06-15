@@ -24,16 +24,29 @@ drawer: [
   }
   {
     type: DrawRegion
-    suffix: -rgb
+    suffix: -r
     spinSprite: true
-    rotateSpeed: -1
+    rotateSpeed: 1.5
+  }
+  {
+    type: DrawRegion
+    suffix: -g
+    spinSprite: true
+    rotateSpeed: 1.5
+    rotationOffset: 120
+  }
+  {
+    type: DrawRegion
+    suffix: -b
+    spinSprite: true
+    rotateSpeed: 1.5
+    rotationOffset: 240
   }
   {
     type: DrawRegion
     suffix: -weave
     spinSprite: true
-    rotateSpeed: 2
-    rotationOffset: 90
+    rotateSpeed: -1
   }
   DrawDefault
   {
