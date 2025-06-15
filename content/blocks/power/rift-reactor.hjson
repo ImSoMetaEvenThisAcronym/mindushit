@@ -13,7 +13,7 @@ consumes: {
   {type: ConsumeItemExplosive}
   {type: ConsumeItemRadioactive}
   {type: ConsumeItemCharged}
-
+}
 powerProduction: 2000
 drawer: [
   DrawDefault
