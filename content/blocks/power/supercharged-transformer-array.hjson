@@ -44,7 +44,6 @@ updateEffect: {
   colorTo: f8c266
 }
 updateEffectChance: 0.12
-updateEffectSpread: 0.15
 craftTime: 900
 outputLiquids: [
   ichor/1
