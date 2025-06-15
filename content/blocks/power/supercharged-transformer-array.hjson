@@ -21,6 +21,14 @@ drawer: [
     suffix: -bottom
   }
   {
+    type: DrawCells
+    color: 00000000
+    particleColorFrom: f8c26630
+    particleColorTo: ffe18fbb
+    particles: 30
+    range: 7
+  }
+  {
     type: DrawRegion
     suffix: -coil
   }
