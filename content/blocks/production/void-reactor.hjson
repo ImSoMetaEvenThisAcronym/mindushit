@@ -22,6 +22,7 @@ drawer: [
     particleColorFrom: ff0000
     particleColorTo: 00ffff
     particles: 20
+    range: 7
   }
   DrawDefault
 ]
