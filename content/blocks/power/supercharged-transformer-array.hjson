@@ -33,12 +33,18 @@ drawer: [
   }
 ]
 updateEffect: {
-  type: WrapEffect
-  effect: colorSpark
-  color: f8c266
+  line: true
+  lifetime: 12
+  length: 13
+  lenFrom: 3
+  lenTo: 0
+  strokeFrom: 1
+  strokeTo: 0
+  colorFrom: ffffff
+  colorTo: f8c266
 }
 updateEffectChance: 0.12
-updateEffectSpread: 7
+updateEffectSpread: 1
 craftTime: 900
 outputLiquids: [
   ichor/1
