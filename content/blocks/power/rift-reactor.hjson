@@ -16,7 +16,33 @@ consumes: {
 }
 powerProduction: 2000
 drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawPlasma
+    plasma1: 923eff
+    plasma2: 7891ff
+  }
+  {
+    type: DrawPlasma
+    plasma1: d678ff
+    plasma2: 29a5ff
+  }
   DrawDefault
+  {
+    type: DrawGlowRegion
+    suffix: -lights
+    scale: 5
+  }
+  {
+    type: DrawGlowRegion
+    color: 3a92ff
+    alpha: 0.5
+    glowScale: 10
+    glowIntensity: 1
+  }
 ]
 craftTime: 60
 category: power
