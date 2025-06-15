@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: "Supercharged Transformer Array"
+description: '''
+A complex array of energy-to-matter synthesis modules for the purpose of transforming electrical energy into ichor for extremely powerful machinery. Requires extensive cooling and materials to repair it periodically. Extremely dangerous, do not let it get destroyed.
+'''
+size: 4
+baseExplosiveness: 15
+consumes: {
+  power: 10
+  items: [
+    surge-alloy/1
+  ]
+  liquids: [
+    cryofluid/1
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawRegion
+    suffix: -coil
+  }
+  DrawDefault
+  {
+    type: DrawFade
+    suffix: -lights
+    scale: 15
+    alpha: 0.25
+  }
+]
+craftTime: 600
+outputLiquids: [
+  ichor/1
+]
+liquidCapacity: 300
+category: crafting
+requirements: [
+  surge-alloy/40
+  glitch-matter/20
+  thorium/120
+  silicon/60
+  graphite/60
+]
