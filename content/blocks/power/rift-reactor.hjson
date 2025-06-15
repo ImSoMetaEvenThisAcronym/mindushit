@@ -4,6 +4,8 @@ description: '''
 Uses void fluid to open a huge rift in the fabric of reality. Reactive matter falling into this rift is shredded, producing massive amounts of pure energy.
 '''
 size: 6
+ambientSound: shield
+ambientSoundVolume: 0.6
 consumes: {
   power: 90
   liquids: [
