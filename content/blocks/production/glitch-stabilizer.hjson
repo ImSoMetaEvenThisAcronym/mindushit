@@ -68,7 +68,7 @@ updateEffect: {
   color: 8a73c6
 }
 updateEffectChance: 0.05
-updateEffectSpread: 0
+updateEffectSpread: 0.15
 craftTime: 60
 outputItems: [
   contained-glitch-matter/1
