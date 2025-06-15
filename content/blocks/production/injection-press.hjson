@@ -28,16 +28,7 @@ craftEffect: {
   type: RadialEffect
   lengthOffset: 4
   rotationOffset: 45
-  effect: {
-    lifetime: 100
-    colorFrom: f1e479
-    colorTo: bbbbbb
-    cone: 40
-    length: 15
-    sizeFrom: 7
-    sizeTo: 0
-    sizeInterp: pow5Out
-  }
+  effect: formsmoke
 }
 category: crafting
 requirements: [
