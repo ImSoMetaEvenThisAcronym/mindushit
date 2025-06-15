@@ -21,7 +21,7 @@ drawer: [
     color: 000000
     particleColorFrom: ff0000
     particleColorTo: 00ffff
-    particles: 6
+    particles: 20
   }
   DrawDefault
 ]
