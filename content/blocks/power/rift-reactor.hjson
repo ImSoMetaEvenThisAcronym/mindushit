@@ -30,9 +30,32 @@ drawer: [
     plasma1: d678ff
     plasma2: 29a5ff
   }
+  {
+    type: DrawShape
+    color: 7891ff
+    radius: 8
+    sides: 4
+    timeScl: 0.25
+    useWarmupRadius: true
+  }
+  {
+    type: DrawShape
+    color: d678ff
+    radius: 7
+    sides: 3
+    timeScl: 0.5
+    useWarmupRadius: true
+  }
+  {
+    type: DrawShape
+    color: 000000
+    radius: 6
+    sides: 15
+    useWarmupRadius: true
+  }
   DrawDefault
   {
-    type: DrawGlowRegion
+    type: DrawFade
     suffix: -lights
     scale: 5
   }
