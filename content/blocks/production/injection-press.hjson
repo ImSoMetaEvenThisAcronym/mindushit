@@ -24,7 +24,21 @@ outputItems: [
   plastanium/2
 ]
 updateEffect: plasticburn
-craftEffect: [formsmoke, formsmoke]
+craftEffect: {
+  type: RadialEffect
+  lengthOffset: 2
+  rotationOffset: 45
+  effect: {
+    lifetime: 80
+    colorFrom: f1e479
+    colorTo: bbbbbb
+    cone: 40
+    length: 6
+    sizeFrom: 2
+    sizeTo: 0
+    sizeInterp: pow5Out
+  }
+}
 category: crafting
 requirements: [
   thorium/80
