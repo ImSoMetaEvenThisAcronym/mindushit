@@ -5,7 +5,7 @@ A two-chambered machine with the purpose of producing Void Fluid. The first cham
 '''
 size: 5
 consumes: {
-  power: 20
+  power: 100
   items: [
     contained-glitch-matter/1
     thorium/4
