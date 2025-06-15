@@ -1,0 +1,8 @@
+name: "Ichor"
+description: '''
+A moderately dangerous fluid used as a power source for advanced machines.
+'''
+color: 50ff20
+explosiveness: 0.5
+gas: true
+temperature: 1
