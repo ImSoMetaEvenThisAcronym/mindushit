@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: "Large Cryofluid Vat"
+description: '''
+Mixes large amounts of titanium powder into water, producing more cryofluid than a small version.
+'''
+size: 3
+consumes: {
+  liquids: [
+    water/0.5
+  ]
+  items: [
+    titanium/1
+  ]
+  power: 1.5
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: water
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: cryofluid
+  }
+  {
+    type: DrawParticles
+    color: 7fdaf8
+    particles: 10
+  }
+  DrawDefault
+]
+craftTime: 120
+outputLiquids: [
+  cryofluid/0.5
+]
+liquidCapacity: 120
+category: crafting
+requirements: [
+  silicon/70
+  thorium/40
+  metaglass/30
+]
