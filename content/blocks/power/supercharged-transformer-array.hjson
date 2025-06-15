@@ -21,22 +21,6 @@ drawer: [
     suffix: -bottom
   }
   {
-    type: DrawCells
-    color: 00000000
-    particleColorFrom: f8c26630
-    particleColorTo: ffe18fbb
-    particles: 15
-    range: 7
-  }
-  {
-    type: DrawCells
-    color: 00000000
-    particleColorFrom: fff9c3ee
-    particleColorTo: de945845
-    particles: 15
-    range: 7
-  }
-  {
     type: DrawRegion
     suffix: -coil
   }
@@ -48,6 +32,13 @@ drawer: [
     alpha: 0.25
   }
 ]
+updateEffect: {
+  type: WrapEffect
+  effect: colorSpark
+  color: f8c266
+}
+updateEffectChance: 0.12
+updateEffectSpread: 7
 craftTime: 900
 outputLiquids: [
   ichor/1
