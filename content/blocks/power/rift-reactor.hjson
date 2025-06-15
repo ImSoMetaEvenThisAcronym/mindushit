@@ -9,19 +9,16 @@ consumes: {
   liquids: [
     voidfluid/0.5
   ]
-  ConsumeItemFlammable
-  ConsumeItemExplosive
-  ConsumeItemRadioactive
-  ConsumeItemCharged
+  {type: ConsumeItemFlammable}
+  {type: ConsumeItemExplosive}
+  {type: ConsumeItemRadioactive}
+  {type: ConsumeItemCharged}
 }
-powerProduction: 1500
+powerProduction: 2000
 drawer: [
   DrawDefault
 ]
 craftTime: 60
 category: crafting
 requirements: [
-  surge-alloy/80
-  phase-fabric/40
-  titanium/60
 ]
