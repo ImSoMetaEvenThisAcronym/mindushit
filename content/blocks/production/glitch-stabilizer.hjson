@@ -1,11 +1,14 @@
 type: GenericCrafter
 name: "Glitch Stabilizer"
 description: '''
-Encases glitch matter in a thin shell of phase fabric.
+Encases glitch matter in a thin shell of phase fabric. Requires ichor.
 '''
 size: 3
+hasPower: false
 consumes: {
-  power: 4
+  liquids: [
+    ichor/0.1
+  ]
   items: [
     glitch-matter/1
     phase-fabric/1
