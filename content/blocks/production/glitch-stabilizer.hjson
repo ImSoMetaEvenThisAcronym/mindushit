@@ -62,6 +62,13 @@ drawer: [
     glowIntensity: 0.8
   }
 ]
+updateEffect: {
+  type: WrapEffect
+  effect: fluxVapor
+  color: f9a3c7
+}
+updateEffectChance: 0.12
+updateEffectSpread: 0.5
 craftTime: 60
 outputItems: [
   contained-glitch-matter/1
