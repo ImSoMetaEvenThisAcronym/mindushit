@@ -33,7 +33,7 @@ drawer: [
   {
     type: DrawShape
     color: 000000
-    radius: 15
+    radius: 11
     sides: 15
     useWarmupRadius: true
   }
