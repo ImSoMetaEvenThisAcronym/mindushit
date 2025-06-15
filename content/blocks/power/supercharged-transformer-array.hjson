@@ -5,6 +5,7 @@ A complex array of energy-to-matter synthesis modules for the purpose of transfo
 '''
 size: 4
 baseExplosiveness: 50
+conductivePower: true
 consumes: {
   power: 10
   items: [
