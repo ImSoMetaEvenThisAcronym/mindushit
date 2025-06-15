@@ -1,8 +1,12 @@
 type: CellLiquid
 name: "Void Fluid"
 description: '''
-gleeb test
+Thorium reacted with highly charged glitch matter. Extremely unstable, and used for energy production. Will cause catostrophic chain reactions if you let even one tank of it explode.
 '''
 color: 000000
 colorFrom: ff0000
 colorTo: 00ffff
+explosiveness: 10
+flammability: 10
+coolant: false
+temperature: 0.7
