@@ -3,7 +3,7 @@ name: "Void Reactor"
 description: '''
 A powerful machine with the purpose of producing Void Fluid. Injects huge amounts of electrical energy into glitch matter, then combines it with thorium, effectively breaking down the matter and turning it into an unstable, reality-breaking fluid-like substance. Returns the phase fabric from the matter's casing.
 '''
-size: 5
+size: 4
 consumes: {
   power: 100
   items: [
