@@ -1,0 +1,27 @@
+type: ImpactReactor
+name: "Quantum Rift Reactor"
+description: '''
+Uses void fluid to open a huge rift in the fabric of reality. Reactive matter falling into this rift is shredded, producing massive amounts of pure energy.
+'''
+size: 3
+consumes: {
+  power: 90
+  liquids: [
+    voidfluid/0.5
+  ]
+  ConsumeItemFlammable
+  ConsumeItemExplosive
+  ConsumeItemRadioactive
+  ConsumeItemCharged
+}
+powerProduction: 1500
+drawer: [
+  DrawDefault
+]
+craftTime: 60
+category: crafting
+requirements: [
+  surge-alloy/80
+  phase-fabric/40
+  titanium/60
+]
