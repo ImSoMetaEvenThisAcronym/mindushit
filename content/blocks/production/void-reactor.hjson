@@ -12,6 +12,17 @@ consumes: {
   ]
 }
 drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawCells
+    color: 000000
+    particleColorFrom: ff0000
+    particleColorTo: 00ffff
+    particles: 6
+  }
   DrawDefault
 ]
 craftTime: 60
