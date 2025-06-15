@@ -16,6 +16,8 @@ consumes: {
     thorium/4
   ]
 }
+liquidCapacity: 600
+itemCapacity: 20
 drawer: [
   {
     type: DrawRegion
