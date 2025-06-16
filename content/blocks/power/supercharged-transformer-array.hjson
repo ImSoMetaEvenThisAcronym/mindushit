@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: "Supercharged Transformer Array"
 description: '''
-A complex array of energy-to-matter synthesis modules for the purpose of transforming electrical energy into ichor for extremely powerful machinery. Requires extensive cooling and materials to repair it periodically. Extremely dangerous, do not let it get destroyed.
+A complex array of energy to semi-matter synthesis modules for the purpose of transforming electrical energy into ichor for extremely powerful machinery. Requires extensive cooling and materials to repair it periodically. Extremely dangerous, do not let it get destroyed.
 '''
 size: 4
 ambientSound: spellLoop
