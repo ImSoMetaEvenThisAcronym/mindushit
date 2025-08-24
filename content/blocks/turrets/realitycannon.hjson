@@ -28,8 +28,7 @@ shoot: {
   spread: 6
 }
 shootCone: 360
-ShootType: {
-  metaglass: {
+shootType: {
     type: LaserBulletType
     damage: 180
     sideLength: 0
@@ -57,7 +56,6 @@ ShootType: {
         strokeTo: 0
       }
     ]
-  }
 }
 liquidCapacity: 1000
 coolantMultiplier: 2
