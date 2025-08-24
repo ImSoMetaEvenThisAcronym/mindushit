@@ -30,9 +30,9 @@ shootType: {
     length: 400
     pierce: true
     colors: [
-      a645ff,
-      ed72ff,
-      ffbaf8,
+      000000,
+      000000,
+      000000,
       ffffff
     ]
     hitEffect: [
