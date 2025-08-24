@@ -1,58 +1,56 @@
-type: LiquidTurret
+type: PowerTurret
 requirements: [
-voidfluid/300
+metaglass/200
+silicon/600
+surge-alloy/150
 ]
-name: "Reality Cannon"
+name: "EXTREMELY LARGE FUCKING CRYSTAL THAT IS MADE FROM SMALLER CRYSTALS BECAUSE TRASH N' SHIT IS STUPID"
 description: '''
-Concentrates void fluid in a powerful beam which disrupts reality.
+A contraption made from many crackhead crystals. Fires in all directions.
+
+"We still have no idea how it works, but it's cooler." - Trash n' Shit Ceos
 '''
 hasShadow: false
 category: turret
-range: 250
+range: 200
 shootEffect: none
 smokeEffect: none
-shootSound: explosionbig
-reload: 180
-recoil: 2
-shake: 4
-size: 6
-drawer: {
-type: DrawTurret
-parts: [
-{
-suffix: "-barrel"
-progress: recoil
-under: true
-moveY: -13
+shootSound: laser
+reload: 160
+recoil: 0
+shake: 8
+size: 10
+shootY: 0
+rotateSpeed: 0
+shoot: {
+  type: ShootSpread
+  shots: 60
+  spread: 6
 }
-]
-}
-ammoTypes: {
-  voidfluid: {
+shootCone: 360
+ShootType: {
+  metaglass: {
     type: LaserBulletType
-    ammoMultiplier: 1
-    damage: 200
-    width: 100
-    sideAngle: 90
-    sideLength: 30
-    sideWidth: 15
-    lifetime: 80
-    length: 500
+    damage: 180
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 18
+    length: 200
     pierce: true
     colors: [
-      ffffff,
-      ffffff,
-      ffffff,
-      000000
+      a645ff,
+      ed72ff,
+      ffbaf8,
+      ffffff
     ]
     hitEffect: [
       {
         line: true
-        length: 60
-        lifetime: 15
-        particles: 10
-        colorFrom: ffffff
-        colorTo: af8578
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: ed72ff
+        colorTo: a645ff
         lenFrom: 2
         sizeTo: 0
         strokeFrom: 1
@@ -61,4 +59,10 @@ ammoTypes: {
     ]
   }
 }
-ammoPerShot: 10
+liquidCapacity: 1000
+coolantMultiplier: 2
+coolant: {
+  type: ConsumeLiquid
+  liquid: liquid-crack
+  amount: 1
+}
