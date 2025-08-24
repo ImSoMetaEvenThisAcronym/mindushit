@@ -14,12 +14,12 @@ range: 200
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 160
+reload: 600
 recoil: 0
 shake: 8
 size: 5
 shootY: 0
-rotateSpeed: 1
+rotateSpeed: 2
 shootCone: 360
 shootType: {
     type: LaserBulletType
