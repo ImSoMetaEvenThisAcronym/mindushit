@@ -19,7 +19,7 @@ recoil: 0
 shake: 8
 size: 10
 shootY: 0
-rotateSpeed: 0
+rotateSpeed: 1
 shootCone: 360
 shootType: {
     type: LaserBulletType
