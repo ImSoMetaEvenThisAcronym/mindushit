@@ -1,5 +1,5 @@
 ammoTypes: {
-  brick: {
+  cryofluid: {
     type: BasicBulletType
     damage: 120
     width: 0
@@ -11,16 +11,6 @@ ammoTypes: {
     absorbable: false
     hitShake: 10
     hitSound: bang
-    parts: [
-      {
-        type: RegionPart
-        name: mindustrymod-primitive-thrower-brick
-        layer: 111
-        outline: false
-        progress: life
-        moveRot: 90
-      }
-    ]
   }
 }
 
