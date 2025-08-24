@@ -20,19 +20,14 @@ shake: 8
 size: 10
 shootY: 0
 rotateSpeed: 0
-shoot: {
-  type: ShootSpread
-  shots: 60
-  spread: 6
-}
 shootCone: 360
 shootType: {
     type: LaserBulletType
     damage: 180
     sideLength: 0
     sideWidth: 0
-    lifetime: 18
-    length: 200
+    lifetime: 60
+    length: 400
     pierce: true
     colors: [
       a645ff,
