@@ -17,7 +17,7 @@ shootSound: laser
 reload: 160
 recoil: 0
 shake: 8
-size: 10
+size: 5
 shootY: 0
 rotateSpeed: 1
 shootCone: 360
@@ -27,7 +27,8 @@ shootType: {
     sideLength: 0
     sideWidth: 0
     lifetime: 60
-    length: 400
+    length: 500
+    width: 12
     pierce: true
     colors: [
       ffffff,
