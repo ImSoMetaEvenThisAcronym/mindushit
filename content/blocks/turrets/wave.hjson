@@ -1,5 +1,5 @@
 ammoTypes: {
-  cryofluid: {
+  voidfluid: {
     type: BasicBulletType
     damage: 120
     width: 10
