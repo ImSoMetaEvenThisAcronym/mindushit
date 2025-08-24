@@ -2,8 +2,8 @@ ammoTypes: {
   cryofluid: {
     type: BasicBulletType
     damage: 120
-    width: 0
-    height: 0
+    width: 10
+    height: 10
     shrinkY: 0
     shrinkX: 0
     speed: 5
