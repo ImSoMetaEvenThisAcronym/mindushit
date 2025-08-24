@@ -4,11 +4,9 @@ metaglass/200
 silicon/600
 surge-alloy/150
 ]
-name: "EXTREMELY LARGE FUCKING CRYSTAL THAT IS MADE FROM SMALLER CRYSTALS BECAUSE TRASH N' SHIT IS STUPID"
+name: "Reality Cannon"
 description: '''
-A contraption made from many crackhead crystals. Fires in all directions.
-
-"We still have no idea how it works, but it's cooler." - Trash n' Shit Ceos
+Channels void fluid into a concentrated beam of unstable reality.
 '''
 hasShadow: false
 category: turret
