@@ -63,6 +63,6 @@ liquidCapacity: 1000
 coolantMultiplier: 2
 coolant: {
   type: ConsumeLiquid
-  liquid: liquid-crack
+  liquid: voidfluid
   amount: 1
 }
