@@ -1,0 +1,27 @@
+ammoTypes: {
+  brick: {
+    type: BasicBulletType
+    damage: 120
+    width: 0
+    height: 0
+    shrinkY: 0
+    shrinkX: 0
+    speed: 5
+    lifetime: 70
+    absorbable: false
+    hitShake: 10
+    hitSound: bang
+    parts: [
+      {
+        type: RegionPart
+        name: mindustrymod-primitive-thrower-brick
+        layer: 111
+        outline: false
+        progress: life
+        moveRot: 90
+      }
+    ]
+  }
+}
+
+// this is just copied from zacs mod
