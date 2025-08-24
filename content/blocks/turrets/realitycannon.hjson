@@ -1,0 +1,64 @@
+type: LiquidTurret
+requirements: [
+voidfluid/300
+]
+name: "Reality Cannon"
+description: '''
+Concentrates void fluid in a powerful beam which disrupts reality.
+'''
+hasShadow: false
+category: turret
+range: 250
+shootEffect: none
+smokeEffect: none
+shootSound: explosionbig
+reload: 180
+recoil: 2
+shake: 4
+size: 6
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-barrel"
+progress: recoil
+under: true
+moveY: -13
+}
+]
+}
+ammoTypes: {
+  voidfluid: {
+    type: LaserBulletType
+    ammoMultiplier: 1
+    damage: 200
+    width: 100
+    sideAngle: 90
+    sideLength: 30
+    sideWidth: 15
+    lifetime: 80
+    length: 500
+    pierce: true
+    colors: [
+      ffffff,
+      ffffff,
+      ffffff,
+      000000
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 60
+        lifetime: 15
+        particles: 10
+        colorFrom: ffffff
+        colorTo: af8578
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+ammoPerShot: 10
