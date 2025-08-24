@@ -32,8 +32,8 @@ shootType: {
     pierce: true
     colors: [
       ffffff,
-      ffffff,
-      ffffff,
+      000000,
+      000000,
       000000
     ]
     hitEffect: [
