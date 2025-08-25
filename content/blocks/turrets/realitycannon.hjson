@@ -14,7 +14,7 @@ range: 200
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 2000
+reload: 1200
 recoil: 0
 shake: 8
 size: 10
