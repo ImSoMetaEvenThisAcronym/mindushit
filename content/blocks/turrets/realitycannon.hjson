@@ -14,7 +14,8 @@ range: 200
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 2400
+reload: 60
+// CHANGETO2400
 recoil: 30
 shake: 16
 size: 10
