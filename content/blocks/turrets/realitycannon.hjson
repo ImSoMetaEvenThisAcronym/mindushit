@@ -14,7 +14,7 @@ range: 200
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 1200
+reload: 2400
 recoil: 0
 shake: 8
 size: 10
@@ -26,9 +26,9 @@ shootType: {
     damage: 180
     sideLength: 0
     sideWidth: 0
-    lifetime: 240
+    lifetime: 600
     length: 500
-    width: 40
+    width: 80
     pierce: true
     colors: [
       ffffff,
