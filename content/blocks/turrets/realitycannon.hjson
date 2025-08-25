@@ -26,7 +26,7 @@ shootType: {
     damage: 180
     sideLength: 0
     sideWidth: 0
-    lifetime: 600
+    lifetime: 120
     length: 500
     width: 80
     pierce: true
