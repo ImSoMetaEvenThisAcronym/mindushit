@@ -10,11 +10,11 @@ Channels void fluid into a concentrated beam of unstable reality.
 '''
 hasShadow: false
 category: turret
-range: 150
+range: 250
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 5
+reload: 120
 // CHANGETO2400
 recoil: 30
 shake: 16
