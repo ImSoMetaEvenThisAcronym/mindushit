@@ -23,20 +23,13 @@ shootY: 0
 rotateSpeed: 2
 shootCone: 360
 shootType: {
-    type: LaserBulletType
-    damage: 180
-    sideLength: 0
-    sideWidth: 0
-    lifetime: 40
-    length: 500
-    width: 40
-    pierce: true
-    colors: [
-      ffffff,
-      000000,
-      000000,
-      000000
-    ]
+    type: ContinuousLaserBulletType
+  collidesTeam: true
+  healPercent: 5
+  damage: 20
+  colors: [ffffff, ffff00]
+  length: 200
+  width: 12
     hitEffect: [
       {
         line: true
