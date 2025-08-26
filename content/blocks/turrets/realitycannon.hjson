@@ -26,7 +26,7 @@ shootType: {
     type: ContinuousLaserBulletType
   collidesTeam: true
   healPercent: 5
-  damage: 200
+  damage: 10
   colors: [ffffff, 000000]
   length: 500
   width: 20
