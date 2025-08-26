@@ -26,15 +26,15 @@ shootType: {
     type: ContinuousLaserBulletType
   collidesTeam: true
   healPercent: 5
-  damage: 20
-  colors: [ffffff, ffff00]
-  length: 200
-  width: 12
+  damage: 80
+  colors: [ffffff, 000000]
+  length: 500
+  width: 15
     hitEffect: [
       {
         line: true
         length: 16
-        lifetime: 10
+        lifetime: 30
         particles: 7
         colorFrom: ed72ff
         colorTo: a645ff
