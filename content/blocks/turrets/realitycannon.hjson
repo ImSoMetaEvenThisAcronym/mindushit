@@ -52,10 +52,10 @@ shootType: {
       }
     ]
 }
-liquidCapacity: 1000
+liquidCapacity: 10000
 coolantMultiplier: 2
 coolant: {
   type: ConsumeLiquid
   liquid: voidfluid
-  amount: 1
+  amount: 500
 }
