@@ -10,7 +10,7 @@ Channels void fluid into a concentrated beam of unstable reality.
 '''
 hasShadow: false
 category: turret
-range: 200
+range: 150
 shootEffect: none
 smokeEffect: none
 shootSound: laser
