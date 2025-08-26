@@ -14,7 +14,7 @@ range: 250
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 120
+reload: 600
 // CHANGETO2400
 recoil: 30
 shake: 16
@@ -26,10 +26,10 @@ shootType: {
     type: ContinuousLaserBulletType
   collidesTeam: true
   healPercent: 5
-  damage: 80
+  damage: 200
   colors: [ffffff, 000000]
   length: 500
-  width: 15
+  width: 20
     hitEffect: [
       {
         line: true
