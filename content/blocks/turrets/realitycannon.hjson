@@ -14,7 +14,7 @@ range: 200
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 60
+reload: 5
 // CHANGETO2400
 recoil: 30
 shake: 16
@@ -27,9 +27,9 @@ shootType: {
     damage: 180
     sideLength: 0
     sideWidth: 0
-    lifetime: 120
+    lifetime: 40
     length: 500
-    width: 80
+    width: 40
     pierce: true
     colors: [
       ffffff,
