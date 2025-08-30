@@ -1,0 +1,46 @@
+type: Planet
+generator: AsteroidGenerator
+sectorSize: 1
+allowLaunchToNumbered: false
+allowLaunchSchematic: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 5
+minZoom: 1.2
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+orbitRadius: 10
+radius: 0.9
+minZoom: 1
+orbitOffset: 165
+rotateTime: 680
+alwaysUnlocked: true
+defaultEnv: 17
+accessible: true
+sectorSeed: 69420
+atmosphereColor: d3c6c0
+iconColor: ff0000
+localizedName: "DEBUG"
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: 11k-01-core-essence
+parent: sun
+solarSystem: sun
+mesh: [
+{
+type: NoiseMesh
+divisions: 6
+radius: 0.9
+color1: 363636
+color2: 575757
+octaves: 4.2
+persistence: 1.3
+scale: 1
+mag: 0.2
+  }
+  ]
+research: {
+  parent: copper
+}
