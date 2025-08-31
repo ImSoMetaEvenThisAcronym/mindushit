@@ -43,7 +43,7 @@ mag: 0.2
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: Oodun
+   planet: DEBUG
    speed: 2
    radius: 0.01
    divisions: 5
@@ -55,7 +55,7 @@ cloudMesh: [
   }
 	 {
    type: HexSkyMesh
-   planet: Oodun
+   planet: DEBUG
    speed: 3
    radius: 0.05
    divisions: 5
