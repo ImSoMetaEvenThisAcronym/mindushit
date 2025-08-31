@@ -18,7 +18,7 @@ alwaysUnlocked: false
 defaultEnv: 17
 accessible: false
 sectorSeed: 16000
-atmosphereColor: 3489eb
+atmosphereColor: 32a83e
 iconColor: 62c462
 localizedName: "DEBUG"
 allowWaveSimulation: false
@@ -32,8 +32,8 @@ mesh: [
 type: NoiseMesh
 divisions: 6
 radius: 1
-color1: 363636
-color2: 575757
+color1: 32a83e
+color2: 399142
 octaves: 4.2
 persistence: 1.3
 scale: 1
