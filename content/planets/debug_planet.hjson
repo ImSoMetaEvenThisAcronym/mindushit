@@ -10,11 +10,11 @@ minZoom: 1.2
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 orbitRadius: 55
-radius: 1.2
+radius: 1
 minZoom: 1
 orbitOffset: 0
 rotateTime: 680
-alwaysUnlocked: true
+alwaysUnlocked: false
 defaultEnv: 17
 accessible: false
 sectorSeed: 16000
@@ -31,7 +31,7 @@ mesh: [
 {
 type: NoiseMesh
 divisions: 6
-radius: 0.9
+radius: 1
 color1: 363636
 color2: 575757
 octaves: 4.2
