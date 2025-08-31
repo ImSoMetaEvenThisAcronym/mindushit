@@ -34,7 +34,7 @@ mesh: [
     planet: Oodun
     divisions: 5
     seed: 7
-    radius: 1.229
+    radius: 1
     color1: 587d89
     color2: 5e95a8
     octaves: 3.7
@@ -45,7 +45,7 @@ mesh: [
     type: NoiseMesh
     planet: Oodun
     divisions: 5
-    radius: 1.22
+    radius: 1
     seed: 94
     color1: 526570
     color2: 3a464d
@@ -58,7 +58,7 @@ mesh: [
     planet: Oodun
     divisions: 6
     seed: 101
-    radius: 1.2441
+    radius: 1
     color1: babca8
     color2: c6c282
     octaves: 5.1
@@ -72,7 +72,7 @@ mesh: [
     divisions: 5
     color1: 626f9b
     color2: 364166
-    radius: 1.212
+    radius: 1
     octaves: 4
     persistence: 1
     scale: 0.75
@@ -84,7 +84,7 @@ mesh: [
     planet: Oodun
     divisions: 5
     seed: 19
-    radius: 1.247
+    radius: 1
     color1: 989aa4
     color2: 6e7080
     octaves: 4.5
@@ -96,7 +96,7 @@ mesh: [
     planet: Oodun
     divisions: 6
     seed: 61
-    radius: 1.248
+    radius: 1
     color1: 998979
     color2: 665e56
     octaves: 4.5
@@ -108,7 +108,7 @@ mesh: [
     planet: Oodun
     divisions: 6
     seed: 17
-    radius: 1.2514
+    radius: 1
     color1: 3d3732
     color2: 4a4b53
     octaves: 5.7
