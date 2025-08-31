@@ -1,0 +1,25 @@
+type: PowerTurret
+requirements: [
+metaglass/200
+silicon/600
+surge-alloy/150
+]
+name: "Disruption Sprayer"
+description: '''
+Sprays void fluid.
+'''
+hasShadow: false
+category: turret
+shootEffect: none
+smokeEffect: none
+shootSound: laser
+shake: 16
+size: 4
+shootY: 0
+rotateSpeed: 2
+  ammo: {
+  voidfluid: {
+    type: LiquidBulletType
+    damage: 0
+  }
+}
