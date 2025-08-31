@@ -18,27 +18,7 @@ size: 4
 shootY: 0
 rotateSpeed: 2
 shootType: {
-    type: ContinuousLaserBulletType
-  collidesTeam: true
-  healPercent: 5
-  damage: 20
-  colors: [ffffff, 000000]
-  length: 500
-  width: 20
-    hitEffect: [
-      {
-        line: true
-        length: 16
-        lifetime: 30
-        particles: 7
-        colorFrom: ed72ff
-        colorTo: a645ff
-        lenFrom: 2
-        sizeTo: 0
-        strokeFrom: 1
-        strokeTo: 0
-      }
-    ]
+    type: LiquidBulletType
 }
   ammo: {
   voidfluid: {
