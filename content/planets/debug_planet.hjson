@@ -27,19 +27,6 @@ allowWaves: true
 prebuildBase: false
 parent: sun
 solarSystem: sun
-mesh: [
-{
-type: NoiseMesh
-divisions: 6
-radius: 1
-color1: 363636
-color2: 575757
-octaves: 4.2
-persistence: 1.3
-scale: 1
-mag: 0.2
-  }
-  ]
 cloudMesh: [
  {
    type: HexSkyMesh
