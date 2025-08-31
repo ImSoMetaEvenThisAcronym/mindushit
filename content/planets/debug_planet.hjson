@@ -31,7 +31,7 @@ mesh: [
  {
     //water
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     divisions: 5
     seed: 7
     radius: 1
@@ -43,7 +43,7 @@ mesh: [
   {
     //slate
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     divisions: 5
     radius: 1
     seed: 94
@@ -55,7 +55,7 @@ mesh: [
   {
     //sand
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     divisions: 6
     seed: 101
     radius: 1
@@ -67,7 +67,7 @@ mesh: [
   {
     //graphite
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     seed: 69
     divisions: 5
     color1: 626f9b
@@ -81,7 +81,7 @@ mesh: [
   {
     //stone
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     divisions: 5
     seed: 19
     radius: 1
@@ -93,7 +93,7 @@ mesh: [
   {
     //dark sand
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     divisions: 6
     seed: 61
     radius: 1
@@ -105,7 +105,7 @@ mesh: [
   {
     //black sand
     type: NoiseMesh
-    planet: Oodun
+    planet: DEBUG
     divisions: 6
     seed: 17
     radius: 1
@@ -118,7 +118,7 @@ mesh: [
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: Oodun
+   planet: DEBUG
    speed: 2
    radius: 0.01
    divisions: 5
@@ -130,7 +130,7 @@ cloudMesh: [
   }
 	 {
    type: HexSkyMesh
-   planet: Oodun
+   planet: DEBUG
    speed: 3
    radius: 0.05
    divisions: 5
