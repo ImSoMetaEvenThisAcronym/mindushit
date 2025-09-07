@@ -1,11 +1,9 @@
 type: Planet
 generator: AsteroidGenerator
-sectorSize: 1
 allowLaunchToNumbered: false
 allowLaunchSchematic: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
-startSector: 5
 minZoom: 1.2
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
@@ -36,6 +34,3 @@ scale: 1
 mag: 0.2
   }
   ]
-research: {
-  parent: copper
-}
