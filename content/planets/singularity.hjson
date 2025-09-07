@@ -12,41 +12,6 @@ atmosphereColor: d3c6c0
 iconColor: ff0000
 localizedName: "Elttaes"parent: sun
 solarSystem: sun
-itemWhitelist: [
-  trash,
-  copper,
-  phase-fabric,
-  rebar,
-  iron, 
-  steel,
-  surge-alloy,
-  crack,
-  coca,
-  catnip,
-  chili,
-  habanero,
-  carolina-reaper,
-  mint,
-  antimatter-soda,
-  bottle-t1, 
-  bottle-t2,
-  bottle-t3,
-  bottle-t4,
-  brick,
-  listerine-bottle,
-  ultra-listerine-bottle,
-  hellfire-bottle,
-  neutronium,
-  uranium,
-  plutonium,
-  thorium,
-  silicon,
-  thorium-soda,
-  uranium-soda,
-  plutonium-soda,
-  seed-cluster,
-  coal
-]
 mesh: [
 {
 type: NoiseMesh
@@ -60,6 +25,3 @@ scale: 1
 mag: 0.2
   }
   ]
-research: {
-  parent: copper
-}
