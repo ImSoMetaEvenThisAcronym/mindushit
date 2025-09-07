@@ -6,6 +6,7 @@ atmosphereRadOut: 0.3
 orbitRadius: 500
 radius: 0.9
 minZoom: 1
+accessible: true
 orbitOffset: 165
 rotateTime: 680
 atmosphereColor: d3c6c0
