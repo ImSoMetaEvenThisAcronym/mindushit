@@ -1,17 +1,26 @@
 type: Planet
 generator: AsteroidGenerator
+sectorSize: 1
+allowLaunchToNumbered: false
+allowLaunchSchematic: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 5
 minZoom: 1.2
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-orbitRadius: 500
+orbitRadius: 50
 radius: 0.9
 minZoom: 1
-accessible: true
 orbitOffset: 165
 rotateTime: 680
+alwaysUnlocked: true
+defaultEnv: 17
+accessible: true
+sectorSeed: 69420
 atmosphereColor: d3c6c0
 iconColor: ff0000
-localizedName: "Singularity"
+localizedName: "Unknown Object"
 parent: sun
 solarSystem: sun
 mesh: [
@@ -27,3 +36,6 @@ scale: 1
 mag: 0.2
   }
   ]
+research: {
+  parent: copper
+}
