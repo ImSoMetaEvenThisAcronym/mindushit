@@ -11,7 +11,8 @@ orbitOffset: 165
 rotateTime: 680
 atmosphereColor: d3c6c0
 iconColor: ff0000
-localizedName: "Elttaes"parent: sun
+localizedName: "Singularity"
+parent: sun
 solarSystem: sun
 mesh: [
 {
