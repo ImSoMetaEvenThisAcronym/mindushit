@@ -1,4 +1,4 @@
-type: PowerTurret
+type: LaserTurret
 requirements: [
 metaglass/200
 silicon/600
@@ -14,7 +14,7 @@ range: 250
 shootEffect: none
 smokeEffect: none
 shootSound: laser
-reload: 600
+reload: 2400
 // CHANGETO2400
 recoil: 30
 shake: 16
@@ -22,13 +22,14 @@ size: 10
 shootY: 0
 rotateSpeed: 2
 shootCone: 360
+shootDuration: 300
 shootType: {
     type: ContinuousLaserBulletType
   collidesTeam: true
   healPercent: 5
   damage: 20
   colors: [ffffff, 000000]
-  length: 500
+  length: 5000
   width: 20
     hitEffect: [
       {
