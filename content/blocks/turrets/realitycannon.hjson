@@ -22,7 +22,7 @@ size: 10
 shootY: 0
 rotateSpeed: 2
 shootCone: 360
-shootDuration: 300
+shootDuration: 20
 shootType: {
     type: ContinuousLaserBulletType
   collidesTeam: true
