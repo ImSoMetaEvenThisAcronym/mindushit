@@ -16,6 +16,7 @@ consumes: {
   itemRadioactive: {}
   itemCharged: {}
 }
+outputLiquid: voidfluid/0.25
 liquidCapacity: 600
 powerProduction: 2000
 drawer: [
