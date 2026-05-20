@@ -1,9 +1,8 @@
 type: GenericCrafter
 name: "Void Reactor"
 description: '''
-A powerful machine with the purpose of producing Void Fluid. Injects huge amounts of electrical energy into glitch matter, then combines it with thorium, effectively breaking down the matter and turning it into an unstable, reality-breaking fluid-like substance. Returns the phase fabric from the matter's casing.
-
-Requires large amounts of ichor.
+Energizes Glitch Matter and fuses it with Thorium to create unstable pseudomass particles. Infuses these particles into Ichor to form Void Fluid.
+Returns Phase Fabric to be reused.
 '''
 ambientSound: bioLoop
 ambientSoundVolume: 0.2
