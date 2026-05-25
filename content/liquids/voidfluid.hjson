@@ -2,6 +2,7 @@ name: "Void Fluid"
 description: '''
 Thorium reacted with highly charged glitch matter. Extremely unstable, and used for energy production. Will cause catostrophic chain reactions if you let even one tank of it explode.
 '''
+details: 'Emits an anomalous phase of light. Computerized sensors universally return either overflow errors or a negative wavelength.'
 color: 000000
 colorFrom: ff0000
 colorTo: 00ffff
